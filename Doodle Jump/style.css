@@ -1,0 +1,223 @@
+#start {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#game {
+  position: absolute;
+  top: 70%;
+  right: 41%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#video {
+  position: absolute;
+  top: 60%;
+  left: 51%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#home {
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#gifsecundar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  cursor: not-allowed;
+}
+
+#gifprincipal {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  width: 400px;
+  height: 400px;
+  cursor: not-allowed;
+}
+
+#giftrei {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  height: 200px;
+  cursor: not-allowed;
+}
+
+#gameplay {
+  text-align: center;
+}
+
+#titlu {
+  font-size: 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #00ff00;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+#hard {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+}
+
+#boost {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellowgreen;
+  color: royalblue
+}
+
+#reset {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+  cursor: pointer;
+
+}
+
+#instructions {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+#board {
+  background-image: url("./img/doodlejumpbg.png");
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1em;
+  background-color: #0075ff;
+}
+
+.wrapper {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 66em;
+}
+
+.wrapper img {
+  max-width: 100%;
+}
+
+#container {
+  background-color: #ffffff;
+  border-radius: 0.8em;
+  padding: 1em;
+}
+
+
+#preview-container {
+  background-color: #CCC;
+  opacity: 0.8;
+  border-radius: 0.8em;
+  padding: 1em;
+  width: 400px;
+}
+
+#container p {
+  font-size: 0.8em;
+  color: #606060;
+  text-align: justify;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+#capture-button,
+#download-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1em;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  padding: 1em 2em;
+  cursor: pointer;
+  border-radius: 0.5em;
+  color: #000000;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doodle Jump</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+      integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="doodlejump.js"></script>
+  </head>
+  <body style="background-image: url('./img/imagine.jpg'); background-size: cover;"></body>
+    <div class="wrapper">
+      <div id="container">
+        <canvas id="board"></canvas>
+      </div>
+      <div id="preview-container"></div>
+    </div>
+    <div class="buttons">
+      <button id="capture-button">Capture Screenshot</button>
+      <a id="download-button" class="hide">Download Screenshot</a>
+    </div>
+    <button id="boost">Boost</button>
+    <button id = "hard">Hard Mode</button>
+    <button id = "reset">Reset</button>
+    <a href="main.html">
+        <button id="home">Home</button>
+    </a>
+    <img id="gifsecundar" src="img/giphy.gif" alt="doodle" id="doodle"> 
+
+ 
+  </body>
+</html>
